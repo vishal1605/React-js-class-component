@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container .header .col-12{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(241, 111, 241);
+}
+.container .header .col-12 .menu ul{
+  margin-bottom: 0;
+}
+.container .header .col-12 .menu ul li{
+  display: inline-block;
+
+}
+.container .header .col-12 .menu ul li a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+}
+
+.register .col-9{
+  background-color: aquamarine;
+  box-shadow: 3px 2px 5px gray;
+  position: relative;
+}
